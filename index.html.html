@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Melhores Produtos para a Copa do Mundo 2026 — Compre no Mercado Livre</title>
+<meta name="description" content="Prepare-se para a Copa do Mundo 2026! Veja os melhores produtos para assistir, torcer e colecionar. Todos disponíveis no Mercado Livre com frete grátis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --verde: #009c3b;
+    --amarelo: #FFDF00;
+    --azul: #002776;
+    --branco: #ffffff;
+    --cinza-claro: #f4f5f0;
+    --cinza-medio: #e0e2d8;
+    --texto: #1a1a1a;
+    --texto-suave: #555;
+    --fonte-titulo: 'Bebas Neue', sans-serif;
+    --fonte-condensada: 'Barlow Condensed', sans-serif;
+    --fonte-corpo: 'Barlow', sans-serif;
+  }
+
+  body {
+    font-family: var(--fonte-corpo);
+    background: var(--branco);
+    color: var(--texto);
+    line-height: 1.6;
+  }
+
+  /* HERO */
+  .hero {
+    background: var(--azul);
+    color: var(--branco);
+    padding: 60px 24px 48px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 40px,
+      rgba(255,223,0,0.04) 40px,
+      rgba(255,223,0,0.04) 80px
+    );
+  }
+  .hero-badge {
+    display: inline-block;
+    background: var(--amarelo);
+    color: var(--azul);
+    font-family: var(--fonte-condensada);
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    padding: 5px 16px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .hero h1 {
+    font-family: var(--fonte-titulo);
+    font-size: clamp(42px, 8vw, 80px);
+    line-height: 0.95;
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .hero h1 span { color: var(--amarelo); }
+  .hero-sub {
+    font-size: 18px;
+    color: rgba(255,255,255,0.8);
+    max-width: 540px;
+    margin: 0 auto 32px;
+    line-height: 1.5;
+  }
+  .countdown {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 8px;
+  }
+  .count-box {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,223,0,0.3);
+    border-radius: 6px;
+    padding: 14px 20px;
+    min-width: 80px;
+  }
+  .count-num {
+    font-family: var(--fonte-titulo);
+    font-size: 42px;
+    color: var(--amarelo);
+    line-height: 1;
+    display: block;
+  }
+  .count-label {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-top: 4px;
+    display: block;
+  }
+
+  /* LAYOUT */
+  .container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* INTRO */
+  .intro-section {
+    padding: 52px 0 40px;
+    border-bottom: 1px solid var(--cinza-medio);
+  }
+  .intro-section p {
+    font-size: 17px;
+    color: var(--texto-suave);
+    line-height: 1.8;
+    margin-bottom: 16px;
+  }
+  .intro-section p:last-child { margin-bottom: 0; }
+  .intro-section strong { color: var(--texto); font-weight: 600; }
+
+  /* SECTION TITLES */
+  .section-title {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 52px 0 28px;
+  }
+  .section-title .num {
+    font-family: var(--fonte-titulo);
+    font-size: 52px;
+    color: var(--amarelo);
+    line-height: 1;
+    background: var(--azul);
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+  .section-title h2 {
+    font-family: var(--fonte-condensada);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+  }
+  .section-title h2 span {
+    display: block;
+    font-family: var(--fonte-corpo);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--texto-suave);
+    letter-spacing: 0;
+    text-transform: none;
+    margin-top: 2px;
+  }
+
+  /* PRODUCT CARDS */
+  .product-card {
+    border: 1.5px solid var(--cinza-medio);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background: var(--branco);
+    transition: box-shadow 0.2s;
+  }
+  .product-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+  .card-body {
+    padding: 24px 28px;
+  }
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  .card-name {
+    font-family: var(--fonte-condensada);
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.2;
+    flex: 1;
+  }
+  .card-price {
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .price-label { font-size: 11px; color: var(--texto-suave); }
+  .price-value {
+    font-family: var(--fonte-titulo);
+    font-size: 28px;
+    color: var(--verde);
+    line-height: 1;
+  }
+  .price-installment {
+    font-size: 12px;
+    color: var(--texto-suave);
+  }
+  .card-desc {
+    font-size: 15px;
+    color: var(--texto-suave);
+    line-height: 1.7;
+    margin-bottom: 18px;
+  }
+  .benefits {
+    list-style: none;
+    margin-bottom: 22px;
+  }
+  .benefits li {
+    font-size: 14px;
+    padding: 5px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    border-bottom: 1px solid var(--cinza-claro);
+  }
+  .benefits li:last-child { border: none; }
+  .benefits li::before {
+    content: '✓';
+    color: var(--verde);
+    font-weight: 700;
+    font-size: 14px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--amarelo);
+    color: var(--azul);
+    font-family: var(--fonte-condensada);
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    padding: 14px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.15s, transform 0.1s;
+  }
+  .cta-btn:hover { background: #f0d000; transform: translateY(-1px); }
+  .cta-btn svg { width: 18px; height: 18px; flex-shrink: 0; }
+  .badge-frete {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #e8f5e9;
+    color: #2e7d32;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 4px;
+    margin-left: 12px;
+  }
+  .card-tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  .tag-hot { background: #fff3e0; color: #e65100; }
+  .tag-best { background: #e3f2fd; color: #1565c0; }
+  .tag-new { background: #f3e5f5; color: #6a1b9a; }
+  .tag-value { background: #e8f5e9; color: #1b5e20; }
+
+  /* DICA BOX */
+  .dica-box {
+    background: var(--azul);
+    color: var(--branco);
+    border-radius: 10px;
+    padding: 28px 32px;
+    margin: 32px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .dica-box::before {
+    content: '"';
+    position: absolute;
+    top: -10px;
+    right: 24px;
+    font-family: var(--fonte-titulo);
+    font-size: 120px;
+    color: rgba(255,223,0,0.15);
+    line-height: 1;
+  }
+  .dica-box h3 {
+    font-family: var(--fonte-condensada);
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--amarelo);
+    margin-bottom: 10px;
+  }
+  .dica-box p { font-size: 15px; line-height: 1.7; opacity: 0.9; }
+
+  /* GUIDE */
+  .guide-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin: 28px 0;
+  }
+  .guide-item {
+    background: var(--cinza-claro);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .guide-item h4 {
+    font-family: var(--fonte-condensada);
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+  .guide-item p { font-size: 14px; color: var(--texto-suave); line-height: 1.6; }
+
+  /* FAQ */
+  .faq-item {
+    border-bottom: 1px solid var(--cinza-medio);
+    padding: 20px 0;
+  }
+  .faq-item h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--azul);
+  }
+  .faq-item p { font-size: 15px; color: var(--texto-suave); line-height: 1.7; }
+
+  /* CONCLUSAO */
+  .conclusao {
+    background: var(--cinza-claro);
+    border-radius: 12px;
+    padding: 40px 36px;
+    margin: 48px 0;
+    text-align: center;
+  }
+  .conclusao h2 {
+    font-family: var(--fonte-titulo);
+    font-size: 36px;
+    color: var(--azul);
+    margin-bottom: 14px;
+  }
+  .conclusao p {
+    font-size: 16px;
+    color: var(--texto-suave);
+    max-width: 520px;
+    margin: 0 auto 28px;
+    line-height: 1.7;
+  }
+  .cta-btn-grande {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--verde);
+    color: var(--branco);
+    font-family: var(--fonte-condensada);
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    padding: 18px 36px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.15s;
+  }
+  .cta-btn-grande:hover { background: #007a2e; }
+
+  /* DISCLAIMER */
+  .disclaimer {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    padding: 24px 0 48px;
+    line-height: 1.6;
+  }
+
+  /* FOOTER STRIPE */
+  .footer-stripe {
+    height: 6px;
+    background: linear-gradient(90deg, var(--verde) 33%, var(--amarelo) 33% 66%, var(--azul) 66%);
+  }
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">⚽ Copa do Mundo 2026 · 11 de Junho</div>
+  <h1>Tudo para a<br><span>Copa 2026</span><br>no Mercado Livre</h1>
+  <p class="hero-sub">Os melhores produtos para assistir, torcer e colecionar — com frete grátis e parcelamento sem juros no Mercado Livre.</p>
+  <div class="countdown">
+    <div class="count-box">
+      <span class="count-num" id="dias">--</span>
+      <span class="count-label">Dias</span>
+    </div>
+    <div class="count-box">
+      <span class="count-num" id="horas">--</span>
+      <span class="count-label">Horas</span>
+    </div>
+    <div class="count-box">
+      <span class="count-num" id="mins">--</span>
+      <span class="count-label">Min</span>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+
+  <!-- INTRO -->
+  <section class="intro-section">
+    <p>A <strong>Copa do Mundo 2026</strong> começa em 11 de junho — e é a maior da história: 48 seleções, 104 jogos, três países-sede (EUA, México e Canadá). O Brasil joga em Nova York, Filadélfia e Miami. Falta pouco.</p>
+    <p>Se você quer se preparar para não perder nenhum lance — seja pela TV nova em casa, com o álbum de figurinhas na mão ou vestindo a camisa da seleção —, reunimos aqui os <strong>produtos mais procurados no Mercado Livre</strong> neste momento. Todos com link direto para você comprar com segurança, frete grátis e parcelamento.</p>
+  </section>
+
+  <!-- CATEGORIA 1: ÁLBUM -->
+  <div class="section-title">
+    <div class="num">1</div>
+    <h2>Álbum de Figurinhas Panini<span>O produto mais procurado da Copa — para todas as idades</span></h2>
+  </div>
+
+  <div class="product-card">
+    <div class="card-body">
+      <span class="card-tag tag-hot">🔥 Mais vendido</span>
+      <div class="card-top">
+        <div class="card-name">Álbum Oficial Copa 2026 — Capa Dura Dourada + 60 Pacotes</div>
+        <div class="card-price">
+          <div class="price-label">A partir de</div>
+          <div class="price-value">R$ 549</div>
+          <div class="price-installment">12x sem juros</div>
+        </div>
+      </div>
+      <p class="card-desc">O álbum oficial da Copa 2026 é o maior já produzido pela Panini: 980 figurinhas, 68 especiais e 112 páginas cobrindo todas as 48 seleções. A versão capa dura dourada já esgotou várias vezes — quem deixa pra depois paga mais caro nos revendedores.</p>
+      <ul class="benefits">
+        <li>Produto 100% oficial FIFA/Panini — qualidade garantida</li>
+        <li>Kit com 60 pacotes (420 figurinhas) — custo por figurinha mais baixo</li>
+        <li>Cobre todas as 48 seleções da edição histórica de 2026</li>
+        <li>Inclui QR codes para conteúdo digital exclusivo</li>
+        <li>Presente certeiro para crianças, adultos e colecionadores</li>
+      </ul>
+      <a href="SEU_LINK_DE_AFILIADO_AQUI" class="cta-btn" target="_blank" rel="nofollow sponsored">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+        Ver no Mercado Livre
+      </a>
+      <span class="badge-frete">✓ Frete Grátis</span>
+    </div>
+  </div>
+
+  <div class="dica-box">
+    <h3>💡 Dica do editor</h3>
+    <p>Na Copa de 2022, mais de 252 mil itens entre álbuns e pacotes foram vendidos em plataformas online só no Brasil. Para 2026, a demanda é ainda maior — são 48 seleções, o que significa mais figurinhas e mais trocas. <strong>Compre o kit antecipado</strong>: os álbuns de capa dura esgotam nas primeiras semanas e o preço sobe nos revendedores.</p>
+  </div>
+
+  <!-- CATEGORIA 2: TV -->
+  <div class="section-title">
+    <div class="num">2</div>
+    <h2>Smart TV para assistir à Copa<span>Imagem nítida, som cheio e toda a emoção em alta definição</span></h2>
+  </div>
+
+  <div class="product-card">
+    <div class="card-body">
+      <span class="card-tag tag-best">⭐ Melhor custo-benefício</span>
+      <div class="card-top">
+        <div class="card-name">Smart TV 50" 4K UHD — Samsung ou LG (Modelos 2024/2025)</div>
+        <div class="card-price">
+          <div class="price-label">A partir de</div>
+          <div class="price-value">R$ 1.799</div>
+          <div class="price-installment">12x sem juros</div>
+        </div>
+      </div>
+      <p class="card-desc">A Copa do Mundo em 4K é outra experiência. Ver cada lance, cada gol da seleção em resolução altíssima numa tela grande faz toda a diferença na festa em casa. O Mercado Livre tem opções de 50" com frete grátis que cabem no orçamento.</p>
+      <ul class="benefits">
+        <li>4K UHD: 4x mais nítido que Full HD — ideal para telas maiores</li>
+        <li>Smart TV com acesso a Globoplay, CazéTV e Bandsports</li>
+        <li>HDR para cores mais vivas em cenas rápidas do futebol</li>
+        <li>Garantia de 1 ano + suporte oficial da marca</li>
+        <li>Parcelamento em até 12x sem juros no Mercado Livre</li>
+      </ul>
+      <a href="SEU_LINK_DE_AFILIADO_AQUI" class="cta-btn" target="_blank" rel="nofollow sponsored">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+        Ver Smart TVs no Mercado Livre
+      </a>
+      <span class="badge-frete">✓ Frete Grátis</span>
+    </div>
+  </div>
+
+  <!-- CATEGORIA 3: SOUNDBAR -->
+  <div class="section-title">
+    <div class="num">3</div>
+    <h2>Soundbar e Caixa de Som<span>Narração e torcida com volume que faz a sala vibrar</span></h2>
+  </div>
+
+  <div class="product-card">
+    <div class="card-body">
+      <span class="card-tag tag-value">💰 Ótimo preço</span>
+      <div class="card-top">
+        <div class="card-name">Soundbar Bluetooth 2.1 — com Subwoofer Sem Fio</div>
+        <div class="card-price">
+          <div class="price-label">A partir de</div>
+          <div class="price-value">R$ 499</div>
+          <div class="price-installment">6x sem juros</div>
+        </div>
+      </div>
+      <p class="card-desc">A TV nova fica completa com um bom soundbar. O subwoofer sem fio entrega aqueles graves que fazem você sentir o barulho da torcida no estádio — direto da sua sala. Conexão Bluetooth para ligar qualquer fonte.</p>
+      <ul class="benefits">
+        <li>Subwoofer sem fio — sem cabos espalhados pela sala</li>
+        <li>Bluetooth 5.0 — conecta TV, celular ou notebook</li>
+        <li>Graves potentes para narração e hino da seleção</li>
+        <li>Fácil instalação — sem necessidade de técnico</li>
+      </ul>
+      <a href="SEU_LINK_DE_AFILIADO_AQUI" class="cta-btn" target="_blank" rel="nofollow sponsored">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+        Ver Soundbars no Mercado Livre
+      </a>
+      <span class="badge-frete">✓ Frete Grátis</span>
+    </div>
+  </div>
+
+  <!-- CATEGORIA 4: DECORAÇÃO -->
+  <div class="section-title">
+    <div class="num">4</div>
+    <h2>Decoração e Itens de Torcida<span>Monte o ambiente perfeito para assistir com a família</span></h2>
+  </div>
+
+  <div class="product-card">
+    <div class="card-body">
+      <span class="card-tag tag-new">🎉 Tendência 2026</span>
+      <div class="card-top">
+        <div class="card-name">Kit Decoração Copa 2026 — Bandeirolas, Balões e Faixas</div>
+        <div class="card-price">
+          <div class="price-label">A partir de</div>
+          <div class="price-value">R$ 49</div>
+          <div class="price-installment">sem juros</div>
+        </div>
+      </div>
+      <p class="card-desc">Bandeirolas verde e amarela, balões, faixas temáticas, itens para churrasco de copa — kits completos para você montar o ambiente sem precisar sair de casa. Chegam antes do torneio começar.</p>
+      <ul class="benefits">
+        <li>Kits completos — bandeirolas, balões e faixas em um pedido só</li>
+        <li>Sem necessidade de licença de marca — itens nas cores do Brasil</li>
+        <li>Frete rápido — chega antes dos jogos começarem</li>
+        <li>Preço acessível — ótima opção para presentear</li>
+      </ul>
+      <a href="SEU_LINK_DE_AFILIADO_AQUI" class="cta-btn" target="_blank" rel="nofollow sponsored">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+        Ver Decoração no Mercado Livre
+      </a>
+      <span class="badge-frete">✓ Frete Grátis</span>
+    </div>
+  </div>
+
+  <!-- GUIA DE COMPRA -->
+  <div class="section-title">
+    <div class="num" style="font-size:32px;">📋</div>
+    <h2>Guia de Compra<span>O que considerar antes de comprar cada produto</span></h2>
+  </div>
+
+  <div class="guide-grid">
+    <div class="guide-item">
+      <h4>📺 Escolhendo a TV</h4>
+      <p>Para salas de até 15m², uma TV de 50" é ideal. Prefira 4K com HDR e verifique se tem acesso nativo ao Globoplay — canal oficial da Copa no Brasil.</p>
+    </div>
+    <div class="guide-item">
+      <h4>🔊 Escolhendo o Soundbar</h4>
+      <p>Verifique se tem subwoofer embutido ou sem fio. Para apartamento, 2.1 canais é suficiente. Prefira conexão HDMI ARC para sincronizar o áudio com a TV.</p>
+    </div>
+    <div class="guide-item">
+      <h4>📖 Álbum de Figurinhas</h4>
+      <p>Kits com mais pacotes têm custo por figurinha menor. A versão capa dura é mais durável e tem valor de colecionador. Compre cedo — esgota rápido.</p>
+    </div>
+    <div class="guide-item">
+      <h4>🎉 Decoração</h4>
+      <p>Kits temáticos que combinam vários itens têm melhor custo-benefício que comprar peça por peça. Verifique o prazo de entrega para chegar antes dos jogos.</p>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="section-title">
+    <div class="num" style="font-size:32px;">❓</div>
+    <h2>Perguntas Frequentes<span>Dúvidas comuns antes de comprar</span></h2>
+  </div>
+
+  <div class="faq-item">
+    <h4>Quando começa a Copa do Mundo 2026?</h4>
+    <p>A Copa do Mundo 2026 começa em 11 de junho, com o jogo de abertura México x África do Sul no Estádio Azteca, na Cidade do México. A final acontece em 19 de julho no MetLife Stadium, em Nova Jersey (EUA).</p>
+  </div>
+  <div class="faq-item">
+    <h4>Em qual canal posso assistir aos jogos do Brasil?</h4>
+    <p>O Globoplay tem os direitos de transmissão de 100% dos jogos. A TV Globo, Band e SBT também transmitem jogos selecionados no canal aberto. Uma Smart TV com acesso ao Globoplay é suficiente para não perder nenhum jogo da seleção.</p>
+  </div>
+  <div class="faq-item">
+    <h4>Os produtos do Mercado Livre chegam antes da Copa?</h4>
+    <p>Sim. Para a maioria das regiões do Brasil, produtos com frete grátis chegam em 3 a 7 dias úteis. Comprando agora, você garante tudo em casa com folga antes de 11 de junho.</p>
+  </div>
+  <div class="faq-item">
+    <h4>Posso parcelar sem juros?</h4>
+    <p>Sim. O Mercado Livre oferece parcelamento em até 12x sem juros em muitos produtos usando cartão de crédito participante. Verifique as condições disponíveis na página de cada produto.</p>
+  </div>
+
+  <!-- CONCLUSÃO -->
+  <div class="conclusao">
+    <h2>Falta pouco! Garanta já o seu</h2>
+    <p>Com a Copa do Mundo começando em 11 de junho, é hora de se preparar. Álbum, TV nova, soundbar e decoração — tudo com frete grátis e parcelamento no Mercado Livre.</p>
+    <a href="SEU_LINK_DE_AFILIADO_AQUI" class="cta-btn-grande" target="_blank" rel="nofollow sponsored">
+      Ver todos os produtos da Copa no Mercado Livre →
+    </a>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <p class="disclaimer">
+    Este artigo contém links de afiliado. Se você comprar através deles, recebo uma pequena comissão sem custo adicional para você.<br>
+    Os preços e disponibilidade podem variar. Consulte sempre a página do produto no Mercado Livre para informações atualizadas.
+  </p>
+
+</div>
+
+<div class="footer-stripe"></div>
+
+<script>
+  // Countdown para 11 de junho de 2026
+  function updateCountdown() {
+    const target = new Date('2026-06-11T16:00:00-03:00');
+    const now = new Date();
+    const diff = target - now;
+    if (diff <= 0) {
+      document.getElementById('dias').textContent = '0';
+      document.getElementById('horas').textContent = '0';
+      document.getElementById('mins').textContent = '0';
+      return;
+    }
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    document.getElementById('dias').textContent = days;
+    document.getElementById('horas').textContent = String(hours).padStart(2, '0');
+    document.getElementById('mins').textContent = String(mins).padStart(2, '0');
+  }
+  updateCountdown();
+  setInterval(updateCountdown, 60000);
+</script>
+</body>
+</html>
